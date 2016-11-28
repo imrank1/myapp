@@ -43,3 +43,30 @@ group :development, :test do
   gem 'spring'
 end
 
+
+gem 'administrate'
+gem 'bootstrap', '~> 4.0.0.alpha3.1'
+gem 'bourbon'
+gem 'devise'
+gem 'devise_invitable'
+gem 'haml-rails'
+gem 'high_voltage'
+gem 'pg'
+gem 'unicorn'
+gem 'unicorn-rails'
+
+group :development do
+  gem 'better_errors'
+  gem 'foreman'
+  gem 'html2haml'
+  gem 'hub', :require=>nil
+  gem 'rails_apps_pages'
+  gem 'rails_layout'
+end
+
+group :development, :test do
+  gem 'pry-rails'
+  gem 'pry-rescue'
+  gem 'rubocop'
+end
+
